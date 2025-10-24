@@ -1,0 +1,99 @@
+<html lang="es">
+    <!--CABECERA-->
+    <head>
+        <title>Compar y Balda</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Pagina principal Comprar y a la Balda">
+        <title>Comprar y a la balda</title>
+        <meta name="keywords" content="Web,BirtLH,TE02">       
+
+        <!--Aplicancion del css por fichero externo-->
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/normalize.css">
+
+        <!--Me he bajado una google font para probar-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+
+        <!--Aplicacion de la etiqueta style,solo h2 porque quiero que sea diferente por pagina-->
+        <style type="text/css">
+            h2 {font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: underline;color:yellow}
+        </style>
+    </head>
+
+        <!--CUERPO-->
+    <body>
+        <!-- CABECERA-->
+          <header>
+            <!-- voy a usar un div para centrar el logo-->
+            <div class="contenedor-logo">
+                <img src="./img/logo.png" alt="logo de la pagina" >
+            </div>
+            
+            <p>Pagina web sobre juegos de mesa.</p>
+
+            <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./categorias.html">Categorias</a></li>
+                <li><a href="./noticias.html">Noticias</a></li>
+                <li><a href="./formulario.html">Contacto</a></li>
+            </ul>
+            </nav>
+
+        </header>
+        <main class="pagina-standart">
+        <section class="section-formulario">
+            <h1>Formulario de contacto</h1>
+
+        <article class="article-form">
+            <form id="form" action="mailto:direcciondelcorreo@correo.com" method="post">
+            <fieldset>
+                <legend><h3>Formulario de contacto</h3></legend>
+                    <label for="fnamenom2">Nombre:</label><br>
+                    <input type="text" id="fnamenom2" name="nombre2"  value="nombre"><br>
+
+                    <label for="fnameapel2">Email:</label><br>
+                    <input type="email" id="email" name="email" value="email"><br>
+                
+                    <label for="mod2">Motivo del contacto:</label><br>
+                    <select id="mod2" name="motivocontacto">
+                        <option value="publicidad">Publicidad</option>
+                        <option value="info">Info</option>
+                    </select><br>
+
+                    <label for="mensaje">Tu mensaje o comentario:</label><br>
+                    <textarea 
+                        id="mensaje" 
+                        name="comentarios" 
+                        rows="5" 
+                        cols="50"
+                        placeholder="Escribe aquí tu mensaje detallado..."
+                    ></textarea><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </article>
+            
+        </section>
+ 
+        <aside id="contenedor-iconos">
+            <p class="titulo-iconos">Categorias</p>
+            <!-- uso los div para diferenciar cada icono-->
+            <div class="contenedor-icono"><img class="icono" src="img/ameritrash.jpg" alt="iconoameri" ></div>
+            <div class="contenedor-icono"><img class="icono" src="img/wargame.jpg" alt="iconowargame" ></div>
+            <div class="contenedor-icono"><img class="icono" src="img/juego familiar.jpg" alt="iconofamiliar" ></div>
+            <div class="contenedor-icono"><img class="icono" src="img/eurogame.jpg" alt="iconoeurogames" ></div>
+        </aside>
+
+        </main>
+        <footer>
+                <p>COMPRAR Y A LA BALDA</p>
+    
+        </footer>
+
+    </body>
+
+
+</html>

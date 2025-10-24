@@ -1,0 +1,244 @@
+/* Estilos de nuestro documento HTML */
+
+/*estilo para el cuerpo en general*/
+
+body {
+	background-color: rgb(255, 248 , 226);
+	font-family: Helvetica;
+}
+
+/*Estilo del header,section,nav y footer que sera el mismo para todas las paginas*/
+header{
+    color: rgb(245, 130, 29);
+    margin:0;
+    padding:0.75em 0;
+    border:solid;
+    /*line-height:2.154*/
+}
+
+header p{
+    text-align:center;
+    font-size:medium;
+    /*line-height:2.154*/
+}
+
+header a{
+    color:white
+}
+
+/* voy a retocar las propiedades de la imagen*/
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-logo img{
+    max-width: 100%;
+    height: auto;
+    width: 50;
+}
+    
+nav ul{
+    margin:0;
+    padding:0 1em 0 0;
+    text-align:center
+}
+
+nav li{
+    display:inline;
+    /*padding-left:1em;*/
+    background: rgb(245, 130, 29);
+    margin:0;
+    line-height:2.154;
+    text-align:center;
+    
+    border-radius: 10px;
+    padding: 10px 15px;
+    
+
+}
+
+.pagina-standart {
+	display:flex;
+	flex-direction: row;
+}
+
+section {
+	flex-basis: 80%;
+	color: rgb(245, 130, 29);
+    margin:0;
+    padding:0.75em 0;
+    border:solid;
+	overflow: hidden;
+
+	
+
+}
+
+
+
+/* Estilos para los iconos del aside */
+.titulo-iconos {
+	width: 100%;	
+}
+
+.contenedor-icono {
+	width: 50%;
+}
+
+.icono {
+	width: 150px;
+}
+
+/* Estilos del contenedor aside para los iconos */
+#contenedor-iconos {
+	flex-basis: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	text-align: center;
+
+}
+
+footer {
+	position: relative;
+	z-index: 3;
+}
+
+footer p{
+	text-align: center;
+}
+
+h1 {
+	color: rgb(64, 33, 11);
+	font-family: "Henny Penny";
+	margin: 100px;
+	margin-top: 40px;
+	border: solid;
+	padding: 10px;
+	width: 30%;
+	display : inline;
+	/*height: 100px;
+	*/
+	text-align: center;
+	align-items: center;
+	font-size: 40px;
+	/*estilo no en apuntes */
+	text-shadow: 2px 2px 5px gray;
+}
+
+/* funte de google por si la quiero usar en otro sitio */
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*css especifico del index*/
+/*La voy a dar formato:reducir la imagen y que el texto quede a la derecha*/ 
+#img-sec-index {
+	width: 40%;
+	float:left;
+	
+}
+
+.section-index p{
+	margin:100px 50px 100px 100px ;
+
+}
+
+.section-index h1{
+	text-align: center ;
+
+}
+
+
+
+
+
+
+/*css especifico de categorias*/
+
+.h1-categorias{
+	color: rgb(64, 33, 11);
+	font-family: "Henny Penny";
+	margin: 100px;
+	margin-top: 40px;
+	border: solid;
+	padding: 10px;
+	width: 30%;
+	display : block;
+	/*height: 100px;
+	*/
+	text-align: center;
+	align-items: center;
+	font-size: 40px;
+	/*estilo no en apuntes */
+	text-shadow: 2px 2px 5px gray;
+}
+
+.section-categorias {
+	flex-basis: 100%;
+	color: rgb(245, 130, 29);
+    margin:0;
+    padding:0.75em 0;
+    border:solid;
+	overflow: hidden;
+
+}
+
+/* Estilo para los iconos */
+#contenedor-categorias {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	text-align: center;
+}
+
+
+.titulo-iconos {
+	width: 100%;	
+}
+
+.contenedor-img-categorias {
+	width: 50%;
+}
+
+.img-categorias {
+	width: 150px;
+}
+
+
+/*css especifico del noticias*/
+
+/*css especifico del formulario*/
+.section-formulario {
+	padding: 30px;
+	display: flex;
+	justify-content:center ;
+	align-items:flex-start;
+	flex-direction: column;
+	
+
+}
+
+.article-form {
+    background-color:#ffffff;
+	
+    margin: 1%;
+    height:50%
+	
+}
+
+
+/*parte de 
+.redondeo-cont {
+    background:rgb(245, 130, 29);
+    border-radius: 10px;
+    padding: 10px 15px;
+
+
+}
